@@ -19,9 +19,13 @@ body{
 
 
 #videoPaiter{
- 
   height:500px;
-margin-left: 50px;
   border-radius: 25px;
 
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+ 
 }
