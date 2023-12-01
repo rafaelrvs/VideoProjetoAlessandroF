@@ -35,7 +35,8 @@ body{
   display: none;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
+  margin-bottom: 25px;
 
  
 }
@@ -181,4 +182,6 @@ border: 1px solid black;
 
   
 }
-
+.imagemLogo{
+  margin-bottom: 25px;
+}
