@@ -112,3 +112,44 @@ border: 1px solid black;
   background-color: rgba(149, 0, 255, 0.195);
 
 }
+
+
+.imagemLogo{
+  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-bottom: -50px;
+  gap: 50px;
+
+}
+
+#logoGit{
+  display: none;
+}
+
+#textH2{
+  display: none;
+  color: black;
+ 
+}
+
+.img{
+  display: none;
+  align-items: center;
+  gap: 25px;
+  justify-content: start;
+  width: 300px;
+  height: 500px;
+ overflow-x: scroll;
+  scroll-behavior:smooth;
+  white-space: nowrap;
+  object-fit: cover;
+ 
+  transition: 0.7s;
+}
+#img01,#img02,#img03,#img04,#img05,#img06,#img07,#img08,#img09{
+  height: 100%;
+
+}
