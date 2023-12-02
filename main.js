@@ -9,7 +9,7 @@ let btnStyle =document.querySelector("#btnStyle")
   let imagemLogo = document.querySelector('.imagemLogo')
   let textH2 = document.querySelector('#textH2')
   let img = document.querySelector('.img')
-
+  let Arraste = document.querySelector('#Arraste')
 
 
 
@@ -52,6 +52,7 @@ let btnStyle =document.querySelector("#btnStyle")
     textH2.style.display = "none"
     imagemLogo.style.display = "none"
     img.style.display = "none"
+    Arraste.style.display="none"
      
    }
    
@@ -64,7 +65,7 @@ let btnStyle =document.querySelector("#btnStyle")
     btnCode.style.display ="none"
     btnVoltar.style.display ="flex"
     img.style.display="flex"
-     
+    Arraste.style.display="flex"
    }
 
    function  activeCode() {
@@ -89,3 +90,5 @@ window.location.href ="https://github.com/rafaelrvs/ProjetoCafe.git"
 
 
    })
+
+
