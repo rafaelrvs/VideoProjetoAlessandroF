@@ -187,6 +187,8 @@ border: 1px solid black;
 }
 .mainImg{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -197,6 +199,7 @@ justify-content: center;
 align-items: center;
 animation: identifier 5000ms linear infinite;
   color: rgba(0, 0, 0, 0.576);
+  margin-right: 25px;
 }
 
 
